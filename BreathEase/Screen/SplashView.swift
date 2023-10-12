@@ -8,8 +8,36 @@
 import SwiftUI
 
 struct SplashView: View {
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+
+            HStack(spacing: 2) {
+                Text("Breath")
+                    .font(.system(size: 30, weight: .medium))
+                    .foregroundColor(.white)
+
+                Text("Ease")
+                    .font(.system(size: 30, weight: .bold))
+                    .foregroundColor(.appDarkCgreen)
+                    .italic()
+
+                Spacer()
+            }
+            .padding()
+        }
+        .background(Color.appCgreen)
+        .navigationBarHidden(true)
+        .navigationBarItems(leading: Button(action: {}) {
+            EmptyView()
+        })
+        .navigationBarBackButtonHidden(true)
+
     }
 }
 

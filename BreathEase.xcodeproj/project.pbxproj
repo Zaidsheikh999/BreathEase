@@ -14,6 +14,20 @@
 		3C4257BF2AC467A300042CD5 /* BreathEaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4257BE2AC467A300042CD5 /* BreathEaseTests.swift */; };
 		3C4257C92AC467A300042CD5 /* BreathEaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4257C82AC467A300042CD5 /* BreathEaseUITests.swift */; };
 		3C4257CB2AC467A300042CD5 /* BreathEaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4257CA2AC467A300042CD5 /* BreathEaseUITestsLaunchTests.swift */; };
+		3C4257D82AC467F500042CD5 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4257D72AC467F500042CD5 /* LandingView.swift */; };
+		3C9200C22AC56C76002935DE /* PressableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200C12AC56C76002935DE /* PressableButtonStyle.swift */; };
+		3C9200C52AC56F1F002935DE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200C42AC56F1F002935DE /* Extension.swift */; };
+		3C9200CA2AC57314002935DE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200C92AC57314002935DE /* SplashView.swift */; };
+		3C9200CC2AC577B2002935DE /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200CB2AC577B2002935DE /* CustomizeView.swift */; };
+		3C9200CE2AC58328002935DE /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200CD2AC58328002935DE /* BackButton.swift */; };
+		3C9200D02AC5A759002935DE /* ColoredToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200CF2AC5A759002935DE /* ColoredToggleStyle.swift */; };
+		3C9200D32AC5B05B002935DE /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9200D22AC5B05B002935DE /* UserPreferences.swift */; };
+		3C99066C2ACC03AA00E6493B /* PatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99066B2ACC03AA00E6493B /* PatternView.swift */; };
+		3C99066F2ACC0C0B00E6493B /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99066E2ACC0C0B00E6493B /* Pattern.swift */; };
+		3C9906712ACC181700E6493B /* PatternItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9906702ACC181700E6493B /* PatternItem.swift */; };
+		3C9906732ACC407600E6493B /* PatternViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9906722ACC407600E6493B /* PatternViewModel.swift */; };
+		3CD432BA2ACD68B20096A728 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD432B92ACD68B20096A728 /* SessionView.swift */; };
+		3CD432BC2ACD73630096A728 /* BreathingExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD432BB2ACD73630096A728 /* BreathingExerciseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		3C4257C42AC467A300042CD5 /* BreathEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4257C82AC467A300042CD5 /* BreathEaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathEaseUITests.swift; sourceTree = "<group>"; };
 		3C4257CA2AC467A300042CD5 /* BreathEaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathEaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C4257D72AC467F500042CD5 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		3C9200C12AC56C76002935DE /* PressableButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressableButtonStyle.swift; sourceTree = "<group>"; };
+		3C9200C42AC56F1F002935DE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3C9200C92AC57314002935DE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3C9200CB2AC577B2002935DE /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		3C9200CD2AC58328002935DE /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		3C9200CF2AC5A759002935DE /* ColoredToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredToggleStyle.swift; sourceTree = "<group>"; };
+		3C9200D22AC5B05B002935DE /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		3C99066B2ACC03AA00E6493B /* PatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternView.swift; sourceTree = "<group>"; };
+		3C99066E2ACC0C0B00E6493B /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		3C9906702ACC181700E6493B /* PatternItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternItem.swift; sourceTree = "<group>"; };
+		3C9906722ACC407600E6493B /* PatternViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternViewModel.swift; sourceTree = "<group>"; };
+		3CD432B92ACD68B20096A728 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		3CD432BB2ACD73630096A728 /* BreathingExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExerciseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +124,12 @@
 			children = (
 				3C4257AD2AC4679400042CD5 /* BreathEaseApp.swift */,
 				3C4257AF2AC4679400042CD5 /* ContentView.swift */,
+				3C9200C82AC57197002935DE /* Screen */,
+				3C99066D2ACC0BF100E6493B /* Model */,
+				3C99066A2ACC00DA00E6493B /* ViewModel */,
+				3C9200D12AC5AFFA002935DE /* HelperClasses */,
+				3C9200C62AC56FF4002935DE /* Components */,
+				3C9200C32AC56F09002935DE /* Extension */,
 				3C4257B12AC467A100042CD5 /* Assets.xcassets */,
 				3C4257B32AC467A100042CD5 /* Preview Content */,
 			);
@@ -127,6 +161,70 @@
 			path = BreathEaseUITests;
 			sourceTree = "<group>";
 		};
+		3C9200C32AC56F09002935DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C9200C72AC5700C002935DE /* Style */,
+				3C9200C42AC56F1F002935DE /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C9200C62AC56FF4002935DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C9200CD2AC58328002935DE /* BackButton.swift */,
+				3C9906702ACC181700E6493B /* PatternItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C9200C72AC5700C002935DE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				3C9200C12AC56C76002935DE /* PressableButtonStyle.swift */,
+				3C9200CF2AC5A759002935DE /* ColoredToggleStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		3C9200C82AC57197002935DE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3C4257D72AC467F500042CD5 /* LandingView.swift */,
+				3C9200C92AC57314002935DE /* SplashView.swift */,
+				3C9200CB2AC577B2002935DE /* CustomizeView.swift */,
+				3C99066B2ACC03AA00E6493B /* PatternView.swift */,
+				3CD432B92ACD68B20096A728 /* SessionView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		3C9200D12AC5AFFA002935DE /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3C9200D22AC5B05B002935DE /* UserPreferences.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		3C99066A2ACC00DA00E6493B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C9906722ACC407600E6493B /* PatternViewModel.swift */,
+				3CD432BB2ACD73630096A728 /* BreathingExerciseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3C99066D2ACC0BF100E6493B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C99066E2ACC0C0B00E6493B /* Pattern.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C4257CE2AC467A300042CD5 /* Build configuration list for PBXNativeTarget "BreathEase" */;
 			buildPhases = (
+				3C9554B02AD6A2AD00CE98D5 /* SwiftLint */,
 				3C4257A62AC4679400042CD5 /* Sources */,
 				3C4257A72AC4679400042CD5 /* Frameworks */,
 				3C4257A82AC4679400042CD5 /* Resources */,
@@ -252,13 +351,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C9554B02AD6A2AD00CE98D5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C4257A62AC4679400042CD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9906712ACC181700E6493B /* PatternItem.swift in Sources */,
+				3CD432BA2ACD68B20096A728 /* SessionView.swift in Sources */,
+				3C99066C2ACC03AA00E6493B /* PatternView.swift in Sources */,
+				3C9200CE2AC58328002935DE /* BackButton.swift in Sources */,
+				3C9200C52AC56F1F002935DE /* Extension.swift in Sources */,
+				3C4257D82AC467F500042CD5 /* LandingView.swift in Sources */,
+				3CD432BC2ACD73630096A728 /* BreathingExerciseViewModel.swift in Sources */,
 				3C4257B02AC4679400042CD5 /* ContentView.swift in Sources */,
 				3C4257AE2AC4679400042CD5 /* BreathEaseApp.swift in Sources */,
+				3C99066F2ACC0C0B00E6493B /* Pattern.swift in Sources */,
+				3C9200D32AC5B05B002935DE /* UserPreferences.swift in Sources */,
+				3C9200C22AC56C76002935DE /* PressableButtonStyle.swift in Sources */,
+				3C9200D02AC5A759002935DE /* ColoredToggleStyle.swift in Sources */,
+				3C9200CC2AC577B2002935DE /* CustomizeView.swift in Sources */,
+				3C9200CA2AC57314002935DE /* SplashView.swift in Sources */,
+				3C9906732ACC407600E6493B /* PatternViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +548,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreathEase/Preview Content\"";
-				DEVELOPMENT_TEAM = B8677HC9HV;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = W2D42WS9V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,8 +566,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubix.BreathEase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Cubix Global LLC development";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,10 +582,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreathEase/Preview Content\"";
-				DEVELOPMENT_TEAM = B8677HC9HV;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = W2D42WS9V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,8 +600,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cubix.BreathEase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Cubix Global LLC development";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

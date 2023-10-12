@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct PatternView: View {
+
+    @ObservedObject var viewModel = PatternViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            HStack {
+                Text("Pattern presets")
+                    .font(.system(size: 13, weight: .light))
+                    .foregroundColor(.white)
+                    .padding(.vertical, 15)
+                    .padding(.leading, 30)
+                Spacer()
+            }
+            PatternItem(viewModel: viewModel)
+        }
+        .background(Color.appCgreen)
+        .navigationBarItems(
+            leading:
+                BackButton()
+        )
     }
+
 }
 
 struct PatternView_Previews: PreviewProvider {

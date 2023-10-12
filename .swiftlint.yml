@@ -1,0 +1,72 @@
+# .swiftlint.yml
+
+# Rules to include
+included:
+  - BreathEase
+  - "BreathEase"
+  - "Sources"  # You can specify source directories to include here
+
+# Rules to exclude
+excluded:
+  - "Carthage"
+  - "Pods"
+
+# Rules to apply
+opt_in_rules:
+  - trailing_whitespace
+  - colon
+  - fatal_error_message
+  - implicitly_unwrapped_optional
+  - legacy_cggeometry_functions
+  - legacy_constant
+  - legacy_constructor
+  - legacy_nsgeometry_functions
+  - operator_usage_whitespace
+  - return_arrow_whitespace
+  - unused_optional_binding
+  - void_return
+  - unowned_variable_capture
+  - custom_rules
+  - empty_count
+  - file_header
+  - line_length
+
+# Individual rule configurations
+line_length:
+  warning: 300  # Warning threshold for line length
+  error: 500    # Error threshold for line length
+
+indentation: 4
+
+# Rules to disable
+disabled_rules:
+  - force_cast
+  - force_try
+  - opening_brace
+
+# Severity levels for rules
+warning_rules:
+  - cyclomatic_complexity
+  - function_body_length
+
+error_rules:
+  - type_name
+  - nesting
+
+# Configuration for custom rules (if you have any)
+custom_rules:
+  my_custom_rule:
+    name: "My Custom Rule"
+    regex: "\\bmyRule\\b"
+    message: "This is a custom rule violation."
+    severity: warning
+
+# Configuration for file header comments (if you use them)
+file_header:
+  prohibited:
+    - "Copyright"
+
+# Additional configurations (if needed)
+analyzer:
+  exclusion:
+    - "Generated"
