@@ -28,8 +28,11 @@ struct ColoredToggleStyle: ToggleStyle {
                         .padding(2)
                         .offset(x: configuration.isOn ? 10 : -10)
                 )
+                .animation(.spring(response: 0.5, dampingFraction: 0.4))
                 .onTapGesture {
-                    configuration.isOn.toggle()
+                    withAnimation(.easeInOut(duration: 1.5)){
+                        configuration.isOn.toggle()
+                    }
                 }
                 .animation(.easeInOut, value: configuration.isOn)
         }
